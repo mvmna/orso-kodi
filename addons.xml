@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon
+  id="repository.orso"
+  name="Orso Repo"
+  version="1.0.0"
+  provider-name="mvmna">
+  <extension
+    point="xbmc.addon.repository"
+    name="Orso Repo">
+    <info compressed="false">https://mvmna.github.io/orso-kodi/addons.xml</info>
+    <checksum>https://mvmna.github.io/orso-kodi/addons.xml.md5</checksum>
+    <datadir zip="true">https://mvmna.github.io/orso-kodi/zips/</datadir>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Repository for Orso Wizard</summary>
+    <description lang="en_GB">Hosts the Orso Wizard and repo metadata.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+<addon
+  id="plugin.program.orsowizard"
+  name="Orso Wizard"
+  version="0.1.0"
+  provider-name="mvmna"
+  requires="xbmc.python (>=3.0.0)">
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Setup + maintenance wizard for Orso Build</summary>
+    <description lang="en_GB">
+      Installs upstream repos (Umbrella, CocoScrapers, The Crew, The Loop),
+      helps configure API keys, and provides maintenance utilities.
+    </description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+</addons>
