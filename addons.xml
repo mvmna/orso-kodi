@@ -23,25 +23,26 @@
   </extension>
 </addon>
 <addon
-  id="plugin.program.orsowizard"
+  id="script.orsowizard"
   name="Orso Wizard"
   version="0.1.0"
-  provider-name="mvmna"
-  requires="xbmc.python (>=3.0.0)">
-  <extension point="xbmc.python.pluginsource" library="default.py">
+  provider-name="mvmna">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
     <provides>executable</provides>
   </extension>
 
   <extension point="xbmc.addon.metadata">
     <summary lang="en_GB">Setup + maintenance wizard for Orso Build</summary>
     <description lang="en_GB">
-      Installs upstream repos (Umbrella, CocoScrapers, The Crew, The Loop),
-      helps configure API keys, and provides maintenance utilities.
+      Installs repositories (Umbrella, The Crew), configures Real Debrid,
+      and provides maintenance utilities.
     </description>
     <platform>all</platform>
     <assets>
       <icon>icon.png</icon>
-      <fanart>fanart.jpg</fanart>
     </assets>
   </extension>
 </addon>
