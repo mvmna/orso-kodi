@@ -8,9 +8,9 @@
   <extension
     point="xbmc.addon.repository"
     name="Orso Repo">
-    <info compressed="false">https://mvmna.github.io/orso-kodi/addons.xml</info>
-    <checksum>https://mvmna.github.io/orso-kodi/addons.xml.md5</checksum>
-    <datadir zip="true">https://mvmna.github.io/orso-kodi/</datadir>
+    <info compressed="false">https://raw.githubusercontent.com/mvmna/orso-kodi/main/addons.xml</info>
+    <checksum>https://raw.githubusercontent.com/mvmna/orso-kodi/main/addons.xml.md5</checksum>
+    <datadir zip="true">https://raw.githubusercontent.com/mvmna/orso-kodi/main/</datadir>
   </extension>
 
   <extension point="xbmc.addon.metadata">
