@@ -10,7 +10,7 @@
     name="Orso Repo">
     <info compressed="false">https://mvmna.github.io/orso-kodi/addons.xml</info>
     <checksum>https://mvmna.github.io/orso-kodi/addons.xml.md5</checksum>
-    <datadir zip="true">https://mvmna.github.io/orso-kodi/zips/</datadir>
+    <datadir zip="true">https://mvmna.github.io/orso-kodi/</datadir>
   </extension>
 
   <extension point="xbmc.addon.metadata">
